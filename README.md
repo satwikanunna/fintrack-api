@@ -1,1 +1,6 @@
 # fintrack-api
+This project is a backend API built to manage financial transactions in a simple and secure way. It allows users to register and log in using authentication, and based on their role, they can perform different actions in the system. The goal of this project is to help track income and expenses and provide a clear financial summary.
+The application supports adding, viewing, updating, and deleting transactions. It also includes a summary feature that calculates total income, total expenses, and the overall balance. Role-based access control is implemented so that users like viewers, analysts, and admins have different permissions.
+The backend is built using Node.js and Express, and MongoDB is used as the database. The project is structured using controllers, routes, services, and middleware to keep the code organized and maintainable. Basic validation and error handling are included to ensure reliability.
+## Running the project
+To run this project, clone the repository and install dependencies using npm install. Then create a .env file and add your MongoDB connection string and JWT secret. After that, start the server using npm run dev and test the APIs using Thunder Client or Postman.
